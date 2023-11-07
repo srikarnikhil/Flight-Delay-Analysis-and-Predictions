@@ -1,0 +1,31 @@
+| Column Name          | Description                                  | Data Type   |
+|----------------------|----------------------------------------------|-------------|
+| Year                 | The year of the flight                       | Integer     |
+| Month                | The month of the flight                      | Integer     |
+| DayOfMonth           | The day of the month of the flight           | Integer     |
+| DayOfWeek            | The day of the week of the flight            | Integer     |
+| DepTime              | The actual departure time of the flight      | Integer     |
+| CRSDepTime           | The scheduled departure time of the flight   | Integer     |
+| ArrTime              | The actual arrival time of the flight        | Integer     |
+| CRSArrTime           | The scheduled arrival time of the flight     | Integer     |
+| UniqueCarrier        | The unique identifier of the airline         | String      |
+| FlightNum            | The flight number                            | Integer     |
+| TailNum              | The tail number of the aircraft              | String      |
+| ActualElapsedTime    | The actual elapsed time of the flight        | Integer     |
+| CRSElapsedTime       | The scheduled elapsed time of the flight     | Integer     |
+| AirTime              | The time spent in the air during the flight  | Integer     |
+| ArrDelay             | The delay in minutes for the flight's arrival| Integer     |
+| DepDelay             | The delay in minutes for the flight's departure | Integer  |
+| Origin               | The airport code of the flight's origin      | String      |
+| Dest                 | The airport code of the flight's destination | String      |
+| Distance             | The distance of the flight in miles          | Integer     |
+| TaxiIn               | The time spent taxiing in after landing      | Integer     |
+| TaxiOut              | The time spent taxiing out before takeoff    | Integer     |
+| Cancelled            | Binary indicator of flight cancellation      | Integer     |
+| CancellationCode     | Code indicating the reason for cancellation  | String      |
+| Diverted             | Binary indicator of flight diversion         | Integer     |
+| CarrierDelay         | Delay caused by the airline                  | Integer     |
+| WeatherDelay         | Delay caused by weather conditions           | Integer     |
+| NASDelay             | Delay caused by the National Airspace System | Integer     |
+| SecurityDelay        | Delay caused by security reasons             | Integer     |
+| LateAircraftDelay    | Delay caused by a previous late-arriving aircraft| Integer |
